@@ -1,0 +1,87 @@
+.Card {
+  width: auto;
+  background-color: #fff;
+  margin: 40px 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.75);
+  padding: 20px 30px;
+
+  &__select-btn {
+    background-color: #00aeae;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+
+  &__right_arrow {
+      display: flex;
+      align-items: center;
+      margin-right:10px;
+  }
+
+  &__duration {
+    p:first-child{
+        font-size: 16px;
+        color: #A9A9A9;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    p:last-child {
+        font-size:16px;
+        color: #00aeae;
+        margin: 6px 0;
+    }
+
+  }
+
+  &__wrapper {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  &__leg-wrapper{
+      display: flex;
+      justify-content: space-evenly;
+      max-width: 350px;
+  }
+
+  &__plane-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+  }
+
+  &__leg{
+    margin-right: 10px;
+    p:first-child{
+        font-size: 22px;
+        color: #000;
+        margin-bottom: 5px;
+    }
+    p:last-child {
+        font-size:18px;
+        color: #A9A9A9;
+        margin: 6px 0;
+    }
+  }
+
+  &__card-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    p:first-child{
+        font-size: 30px;
+        margin: 0px;
+    }
+    p:last-child {
+        font-size:18px;
+        color: #D3D3D3;
+        margin: 6px 0;
+    }
+  }
+}
